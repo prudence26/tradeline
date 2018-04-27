@@ -1,0 +1,209 @@
+.navbar {
+    height: 50px;
+}
+
+.head {
+    text-indent: 10px;
+    font-family: cursive;
+    margin-top: 6px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.top {
+    background-color: #fff;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    border: 4px solid black;
+}
+
+.left {
+    background-color: #fff;
+    right: 0;
+    left: 15px;
+    top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    height: 800px;
+    width: 100%;
+    // border: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+
+}
+
+.mid {
+    background-color: #fff;
+    right: 0;
+    left: 15px;
+    top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    height: 800px;
+    width: 100%;
+    // border: 4px solid black;
+    // border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+ 
+
+}
+
+.right {
+
+    right: 0;
+    left: 15px;
+    top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    height: 800px;
+    width: 100%;
+}
+
+.SelectTradeType {
+    text-indent: 10px;
+    font-family: cursive;
+    margin-top: 6px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    width: 150px;
+}
+
+.btn-secondary {
+    background-color:#fff;
+    color: black;
+}
+
+.SelectReport {
+    text-indent: 10px;
+    font-family: cursive;
+    margin-top: 6px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.year {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.yearinput1 {
+    width: 160px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    height: 30px;
+}
+
+.yearinput2 {
+    width: 160px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.month {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.quarter {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.productcode {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.country {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+    }
+
+.productCodeDesc {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+
+// Export Volume
+.exportVolume {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.quickStats {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.btnExport {
+    width: 150px;
+    background-color:#fff;
+    color: black;
+}
+
+.btn-secondary {
+    background-color:#fff;
+    color: black;
+}
+
+.export {
+    margin-top: 5px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+    height: 400px;
+    width: 260px;
+}
+
+.footer {
+    margin-top: 5px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    width: 100%;
+    height: 50px;
+}
+
+.navbar2 {
+    height: 50px;
+    background-color: gray;
+    height: 42px;
+}

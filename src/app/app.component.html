@@ -1,0 +1,193 @@
+<nav class = "navbar navbar-expand-lg">  
+  <div class = "top">
+    <h1 class = "head">Trade Statistics</h1>
+  </div>
+</nav>
+
+<div class = "mid">
+  <div class = 'row'>
+
+    <!-- div start -->
+    <div class = 'col-md-3 left'>
+      <p class="SelectTradeType">Select Trade Type</p>
+
+      <!-- tab -->
+      <div class="btn-group btn-group-toggle" data-toggle="buttons">
+          <label class="btn btn-secondary active" style="background-color: #2f71b3;">
+            <input type="radio" name="options" id="option1" autocomplete="off" checked> Export
+          </label>
+          <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option2" autocomplete="off"> Import
+          </label>
+          <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option3" autocomplete="off"> Total Trade
+          </label>
+        </div>
+      <!-- end tab -->
+
+        <p class="SelectReport">Select Report</p>
+
+<!-- Split dropup button -->
+<div class="btn-group dropdown">
+    <button type="button" class="btn btn-secondary" style="width: 400px;">
+      Volume
+    </button>
+    <button type="button" style="width: 50px;" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Volume</a>
+        <a class="dropdown-item" href="#">Sample1</a>
+        <a class="dropdown-item" href="#">Sample2</a>
+    </div>
+  </div>
+        
+  <div class="FilterandClear">
+    <div class='row'>
+      <div class = 'col-md-4 leftFaC'>
+          <h1 class="SelectTradeType">Filters</h1>
+      </div>
+      <div class = 'col-md-4 leftFaC'>
+
+      </div>
+      <div class = 'col-md-4 rightFaC' style="text-align: end;margin-top: 5px;">
+        <a href="#">Clear All</a>
+      </div>
+    </div>
+  </div>
+  
+  <h6 class="year">Year</h6>
+
+
+  <div class="d-flex flex-row bd-highlight mb-12">
+  <input type="text" class="yearinput1" name="inputyear1">  
+  <a href="#"><img src="http://pixsector.com/cache/0266455f/ava13c3ac53812cde1b88.png" style="width: 40px; height: 40px;"></a>
+  <h6 class="year">to</h6>
+  <input type="text" class="yearinput2" name="inputyear2"> 
+  <a href="#"><img src="http://pixsector.com/cache/0266455f/ava13c3ac53812cde1b88.png" style="width: 40px; height: 40px;"></a>
+ </div>
+
+ <h6 class="month">Month</h6>
+
+ <div class="btn-group dropdown">
+    <button type="button" class="btn btn-secondary" style="width: 350px;">
+      Select month/s
+    </button>
+    <button type="button" style="width: 50px;" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">January</a>
+        <a class="dropdown-item" href="#">February</a>
+        <a class="dropdown-item" href="#">March</a>
+    </div>
+  </div>
+
+  <h6 class="quarter">Quarter</h6>
+
+  <div class="btn-group dropdown">
+      <button type="button" class="btn btn-secondary" style="width: 350px;">
+        Select quarter/s
+      </button>
+      <button type="button" style="width: 50px;" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="sr-only">Toggle Dropdown</span>
+      </button>
+      <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">qua</a>
+          <a class="dropdown-item" href="#">rt</a>
+          <a class="dropdown-item" href="#">er</a>
+      </div>
+    </div>
+
+    <h6 class="productcode">Product Code</h6>
+
+    <div class="btn-group dropdown">
+        <button type="button" class="btn btn-secondary" style="width: 350px;">
+          Select product code/s
+        </button>
+        <button type="button" style="width: 50px;" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">product</a>
+            <a class="dropdown-item" href="#">code</a>
+            <a class="dropdown-item" href="#">sample</a>
+        </div>
+      </div>
+
+      
+      <h6 class="country">Country</h6>
+
+      <div class="btn-group dropdown">
+          <button type="button" class="btn btn-secondary" style="width: 350px;">
+            Select countries/s
+          </button>
+          <button type="button" style="width: 50px;" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Japan</a>
+              <a class="dropdown-item" href="#">Korea</a>
+              <a class="dropdown-item" href="#">Philippines</a>
+              <a class="dropdown-item" href="#">United States of America</a>
+          </div>
+        </div>
+
+        <h6 class="productCodeDesc">Product Code Description</h6>
+
+        <div class="btn-group dropdown">
+            <button type="button" class="btn btn-secondary" style="width: 350px;">
+              Select product code desc/s
+            </button>
+            <button type="button" style="width: 50px;" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Japan</a>
+                <a class="dropdown-item" href="#">Korea</a>
+                <a class="dropdown-item" href="#">Philippines</a>
+                <a class="dropdown-item" href="#">United States of America</a>
+            </div>
+          </div>
+
+
+
+      </div>
+      <!-- div end -->
+
+      
+
+      <div class = 'col-md-7 mid'>
+          <p class="exportVolume">Export Volume (Market and Product Code)</p>
+
+ 
+
+    </div>
+
+    <div class = 'col-md-2 right'>
+        <p class="quickStats" style="margin-top: 5px;">Quick Stats</p>
+      <button type="button" class="btn btn-secondary" style="width: 260px;">Export</button>
+
+      <div class="export">
+
+      <p>
+      <a href="#" style="margin-left: 5px;">Top 10 Export</a>
+      </p>
+      <a href="#"style="margin-left: 5px;">Top 10 Countries</a>
+      
+
+
+      </div>
+      <button type="button" class="btn btn-secondary" style="width: 260px;margin-top: 5px;">Import</button>
+      <button type="button" class="btn btn-secondary" style="width: 260px;margin-top: 5px;">Total Trade</button>
+    </div>
+
+  </div>
+  <div class="footer">
+      <nav class = "navbar2 navbar-expand-lg background-color:#2f71b3;">  
+
+        </nav>
+  </div>
+</div>
+
+
